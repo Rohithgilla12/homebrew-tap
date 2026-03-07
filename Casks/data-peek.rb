@@ -27,7 +27,7 @@ cask "data-peek" do
   app "Data Peek.app"
 
   zap trash: [
-    "~/Library/Application Support/data-peek",
+    "~/Library/Application Support/Data Peek",
     "~/Library/Logs/Data Peek",
     "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/dev.datapeek.app.sfl3",
     "~/Library/Preferences/dev.datapeek.app.plist",
