@@ -28,6 +28,8 @@ cask "data-peek" do
 
   zap trash: [
     "~/Library/Application Support/data-peek",
+    "~/Library/Logs/Data Peek",
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/dev.datapeek.app.sfl3",
     "~/Library/Preferences/dev.datapeek.app.plist",
     "~/Library/Saved Application State/dev.datapeek.app.savedState",
   ]
