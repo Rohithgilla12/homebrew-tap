@@ -1,14 +1,14 @@
 cask "data-peek" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.20.1"
+  version "0.21.0"
 
   on_arm do
-    sha256 "c1527235461bcee83ec4b192a27c6dd4c845ee112b72ada6ba5018d5d3766744"
+    sha256 "dff382ac6b5765beac08b1ded871f0fbd437071fda9050ec7965f1a45f520a4c"
   end
 
   on_intel do
-    sha256 "03b0ba484f56ee0f813af313b1d257c596bee43b363809e6e84a79fd86900f8a"
+    sha256 "417e0a2f195082737276c282c0ef00ebb4d5710f0241aad10af05306344980e8"
   end
 
   url "https://github.com/Rohithgilla12/data-peek/releases/download/v#{version}/data-peek-#{version}-#{arch}.dmg",
