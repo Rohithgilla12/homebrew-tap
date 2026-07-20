@@ -1,17 +1,8 @@
 cask "data-peek" do
-  arch arm: "arm64", intel: "x64"
+  version "0.27.0"
+  sha256 "15d19d4660730e8778dd6262cb4bf99ff50e5f945ec2a27a44521ff130ae082e"
 
-  version "0.21.6"
-
-  on_arm do
-    sha256 "c717729988e088e691f6e5b99ab006df2fb630a213048e6b0149d5c4505effcb"
-  end
-
-  on_intel do
-    sha256 "445466732ae1a727d4b2d188062b477e59d6add4a4b1c7eeffde5185a05e0b3a"
-  end
-
-  url "https://github.com/Rohithgilla12/data-peek/releases/download/v#{version}/data-peek-#{version}-#{arch}.dmg",
+  url "https://github.com/Rohithgilla12/data-peek/releases/download/v#{version}/data-peek-#{version}-arm64.dmg",
       verified: "github.com/Rohithgilla12/data-peek/"
   name "Data Peek"
   desc "Minimal, fast SQL client desktop application"
@@ -22,6 +13,7 @@ cask "data-peek" do
     strategy :github_latest
   end
 
+  depends_on arch: :arm64
   depends_on macos: ">= :catalina"
 
   app "data-peek.app"
