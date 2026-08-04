@@ -1,6 +1,6 @@
 cask "data-peek" do
-  version "0.28.2"
-  sha256 "b989872b3482b27c192351946d74daa617df855745498de8b373b43600df267f"
+  version "0.28.3"
+  sha256 "b24a5604654af6a32ec5446fffe7a9bacdaf7db80e054c6616d31623b1c908c2"
 
   url "https://github.com/Rohithgilla12/data-peek/releases/download/v#{version}/data-peek-#{version}-arm64.dmg",
       verified: "github.com/Rohithgilla12/data-peek/"
